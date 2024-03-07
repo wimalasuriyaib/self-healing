@@ -1,6 +1,6 @@
 ---
 - name: Restart Microservices
-  hosts: 3.235.5.27
+  hosts: ALL
   vars:
     script: "/home/ubuntu/AIOPs_Hackathon_Lab_Application/MiroseriviceStart.sh"
   tasks:
