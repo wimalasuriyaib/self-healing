@@ -10,4 +10,4 @@
  
     - name: Restart processes if not running
       shell:
-        cmd: "{{ script }}"
+        cmd: "sudo {{ script }}"
