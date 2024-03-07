@@ -1,0 +1,13 @@
+---
+- name: Restart Microservices
+  hosts: all
+  vars:
+    script: "/home/ubuntu/AIOPs_Hackathon_Lab_Application/MiroseriviceStart.sh"
+  tasks:
+    - name: Debug script variable
+      debug:
+        var: script
+ 
+    - name: Restart processes if not running
+      shell:
+        cmd: "{{ script }}"
