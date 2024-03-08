@@ -1,6 +1,6 @@
 ---
 - name: Restart Microservices
-  hosts: 172.31.13.666
+  hosts: 172.31.13.66
   vars:
     script: "/home/ubuntu/AIOPs_Hackathon_Lab_Application/LocationMicroStart.sh"
   tasks:
